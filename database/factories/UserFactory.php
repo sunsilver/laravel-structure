@@ -23,7 +23,7 @@ class UserFactory extends Factory
      */
 
     //  어떤 데이터를 넣을 것인지 
-    public function definition()
+    public function definition() 
     {
         return [
             'name' => $this->faker->name,
